@@ -27,7 +27,8 @@ Constraints: 1 <= n <= 45
 */
 
 // Logic: ways(n) = ways(n-1) + ways(n-2);
-
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int helper(int n, vector<int> &dp){
